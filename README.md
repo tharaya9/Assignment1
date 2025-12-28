@@ -1,59 +1,86 @@
 Assignment 1 – C# Programming Questions
-Overview
+📌 Project Overview
 
-This assignment includes 12 solved programming questions implemented using C#.
-All questions were fully completed, tested, and structured correctly using loops, conditions, and basic programming logic.
+This repository contains Assignment 1, a C# console application developed using Microsoft Visual Studio.
+The project includes 12 fully solved programming questions, each demonstrating fundamental programming concepts such as loops, conditions, variables, and logical reasoning.
 
-The solutions focus on:
+All solutions were implemented, tested, and organized within a single Visual Studio solution.
 
-Problem-solving skills
+🛠️ Technologies & Tools
 
-Logical thinking
-
-Proper use of C# syntax
-
-Console-based output
-
-Technologies Used
-
-Language: C#
+Programming Language: C#
 
 Framework: .NET
 
-IDE: Visual Studio
+IDE: Microsoft Visual Studio 2022 (Version 17)
 
 Application Type: Console Application
 
-Sample Solved Questions
-Question 1: Sum of Even Numbers from 1 to 100
+Solution Format Version: 12.00
 
-This program calculates the sum of all even numbers between 1 and 100 using a for loop.
+📂 Project Structure
+Assignment1/
+│
+├── Assignment1.sln
+├── Assignment1/
+│   ├── Assignment1.csproj
+│   ├── Questions/
+│   │   ├── Question.cs
+│   │   ├── Question6.cs
+│   │   └── ...
+│   └── Program Files
+
+
+Each question is implemented in a separate class
+
+All classes are organized under the same namespace
+
+The solution is configured for Debug and Release modes
+
+🧠 Concepts Covered
+
+The assignment focuses on strengthening the following skills:
+
+Problem-solving and algorithmic thinking
+
+Loop structures (for)
+
+Conditional logic (if, else)
+
+Boolean logic
+
+Console input/output
+
+Clean and readable C# code
+
+🧪 Sample Solved Questions
+🔹 Question 1: Sum of Even Numbers from 1 to 100
+
+Calculates the sum of all even numbers between 1 and 100.
 
 Logic Used:
 
-The loop starts from 2 and increments by 2
+Loop starts from 2 and increments by 2
 
 Each even number is added to a total variable
 
 The final result is printed to the console
 
-Output Example:
+Sample Output:
 
 Sum of even numbers from 1 to 100: 2550
 
-Question 2: Prime Number Check
+🔹 Question 2: Prime Number Check
 
-This program checks whether a given number is a prime number.
+Checks whether a given number is a prime number.
 
 Logic Used:
 
-The number is checked for divisibility starting from 2 up to half of its value
+Tests divisibility from 2 up to half of the number
 
-If the number is divisible by any value, it is not prime
+Uses a boolean flag to determine the result
 
-A boolean variable is used to store and display the result
-
-Output Example:
+Sample Output:
 
 Prime number
 
@@ -62,19 +89,39 @@ or
 
 Not prime
 
-Assignment Status
+✅ Assignment Status
 
-✅ All 12 questions have been:
+✔ All 12 questions have been:
 
 Fully solved
 
 Correctly implemented
 
-Tested with valid output
+Tested with valid outputs
 
-Each solution follows clean coding practices, clear structure, and proper logic.
+✔ Code follows:
 
-Author
+Clean coding practices
+
+Clear structure
+
+Proper naming and logic
+
+🚀 How to Run the Project
+
+Open Assignment1.sln using Visual Studio
+
+Select Debug or Release mode
+
+Set the desired question class as the startup object
+
+Run the project using Ctrl + F5
+
+👩‍💻 Author
 
 Tharaya Ibrahim Al-Shukri
 Full Stack Developer | Software Engineering Student
+
+📄 License
+
+This project is created for educational purposes as part of a programming assignment.
